@@ -68,9 +68,11 @@ fastapi dev main.py
 The API will be available at:
 http://127.0.0.1:8000
 <br>
+<br>
 
 ### 2. Making Requests
 You can test the /recommend endpoint in two different ways:
+<br>
 <br>
 
 #### Option 1: Using curl
@@ -80,6 +82,7 @@ curl -X POST "http://127.0.0.1:8000/recommend" -H "accept: application/json" -H 
 ```
 **Note**: You can modify patient's info (gender, age, and symptoms) in the command.
 <br>
+<br>
 
 #### Option 2: Using run_recommendation.py
 Make sure the API is running, then execute `run_recommendation.py` your new terminal:
@@ -87,6 +90,7 @@ Make sure the API is running, then execute `run_recommendation.py` your new term
 python run_recommendation.py
 ```
 **Note**: You can modify patient's info (gender, age, and symptoms) in the code.
+<br>
 <br>
 
 ---
