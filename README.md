@@ -9,7 +9,7 @@
 ## 🔑 Prerequisite
 You must have a Google API key, then add your Google API key to the `.env` file. Example:
 ```text
-`GOOGLE_API_KEY=your_google_api_key_here`
+GOOGLE_API_KEY=your_google_api_key_here
 ```
 
 ## 📁 Project Structure
