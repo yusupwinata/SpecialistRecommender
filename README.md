@@ -55,18 +55,23 @@ pip install -r requirements.txt
 <br>
 
 ---
+<br>
 
 ## 🏃‍♂️ B. Run the API and Make Request Instructions
 Open a new terminal in SpecialistRecommender folder and follow these steps:
+<br>
+
 ### 1. Running the API
 ```bash
 fastapi dev main.py
 ```
 The API will be available at:
 http://127.0.0.1:8000
+<br>
 
 ### 2. Making Requests
 You can test the /recommend endpoint in two different ways:
+<br>
 
 #### Option 1: Using curl
 Make sure the API is running, then execute this command in your new terminal:
@@ -74,6 +79,7 @@ Make sure the API is running, then execute this command in your new terminal:
 curl -X POST "http://127.0.0.1:8000/recommend" -H "accept: application/json" -H "Content-Type: application/json" -d "{\"gender\": \"female\", \"age\": 62, \"symptoms\": [\"pusing\", \"mual\", \"sulit berjalan\"]}"
 ```
 **Note**: You can modify patient's info (gender, age, and symptoms) in the command.
+<br>
 
 #### Option 2: Using run_recommendation.py
 Make sure the API is running, then execute `run_recommendation.py` your new terminal:
@@ -81,8 +87,10 @@ Make sure the API is running, then execute `run_recommendation.py` your new term
 python run_recommendation.py
 ```
 **Note**: You can modify patient's info (gender, age, and symptoms) in the code.
+<br>
 
 ---
+<br>
 
 **Example Request Format:**
 ```json
@@ -92,6 +100,7 @@ python run_recommendation.py
   "symptoms": ["pusing", "mual", "sulit berjalan"]
 }
 ```
+<br>
 
 **Example output:**
 ```json
