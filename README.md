@@ -77,8 +77,7 @@ http://127.0.0.1:8000
 <br>
 
 ### 2. Making Requests
-First, **Open a new terminal** in SpecialistRecommender folder. Next, test the /recommend endpoint.
-You can test the /recommend endpoint in two different ways:
+First, **Open a new terminal** in SpecialistRecommender folder. Next, **test the /recommend endpoint**. You can test the endpoint in two different ways:
 <br>
 <br>
 
