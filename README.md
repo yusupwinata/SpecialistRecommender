@@ -6,7 +6,11 @@
 - Accepts POST requests with patient data
 - Returns only the recommended hospital department
 
----
+## 🔑 Prerequisite
+You must have a Google API key, then add your Google API key to the `.env` file. Example:
+```text
+`GOOGLE_API_KEY=your_google_api_key_here`
+```
 
 ## 📁 Project Structure
 ```text
@@ -14,19 +18,13 @@ SpecialistRecommender/
 ├── main.py                  # FastAPI app with /recommend endpoint
 ├── run_recommendation.py    # Python script to test API
 ├── requirements.txt         # Required packages
-├── .env                     # Contains GOOGLE_API_KEY (**empty**)
+├── .env                     # Contains your GOOGLE_API_KEY (empty)
 └── README.md                # This tutorial
-```
-
-## 🔑 Prerequisite
-You must have a Google API key, then add your Google API key to the `.env` file. Example:
-```text
-`GOOGLE_API_KEY=your_google_api_key_here`
 ```
 
 ---
 
-## 📦 A. Setup
+## 📦 A. Setup Instructions
 Open a terminal and follow these steps:
 ### 1. Clone the repository
 ```bash
@@ -48,7 +46,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🏃‍♂️ B. Run the API and Make Request
+## 🏃‍♂️ B. Run the API and Make Request Instructions
 Open a new terminal in SpecialistRecommender folder and follow these steps:
 ### 1. Running the API
 ```bash
