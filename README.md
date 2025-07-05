@@ -9,12 +9,14 @@
 ---
 
 ## 📁 Project Structure
+```text
 SpecialistRecommender/
 ├── main.py                  # FastAPI app with /recommend endpoint
 ├── run_recommendation.py    # Python script to test API
 ├── requirements.txt         # Required packages
 ├── .env                     # Contains GOOGLE_API_KEY (**empty**)
 └── README.md                # This tutorial
+```text
 
 ## 🔑 Prerequisite
 You must have a Google API key, then add your Google API key to the `.env` file. Example:
