@@ -36,17 +36,26 @@ Open a terminal and follow these steps:
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/yusupwinata/SpecialistRecommender.git
+```
+<br>
+
+### 2. Open the cloned repository
+```bash
 cd SpecialistRecommender
 ```
 <br>
 
-### 2. Create and activate virtual environment
+### 3. Create a virtual environment
 In this tutorial I use **conda** to create a virtual environment named `specialist_env`.
 ```bash
 conda create -n specialist_env python=3.11 -y
-conda activate specialist_env
 ```
 <br>
+
+### 4. Activate the virtual environment
+```bash
+conda activate specialist_env
+```
 
 ### 3. Install dependencies
 ```bash
