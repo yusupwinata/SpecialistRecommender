@@ -16,11 +16,13 @@ SpecialistRecommender/
 ├── requirements.txt         # Required packages
 ├── .env                     # Contains GOOGLE_API_KEY (**empty**)
 └── README.md                # This tutorial
-```text
+```
 
 ## 🔑 Prerequisite
 You must have a Google API key, then add your Google API key to the `.env` file. Example:
+```text
 `GOOGLE_API_KEY=your_google_api_key_here`
+```
 
 ---
 
