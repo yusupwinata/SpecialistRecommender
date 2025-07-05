@@ -10,11 +10,14 @@ app = FastAPI()
 
 # LLM initialization
 load_dotenv() # load API key
-llm = GoogleGenerativeAI(
-    model="gemini-2.0-flash",
-    temperature=0.2,
-    google_api_key=os.getenv("GOOGLE_API_KEY")
-)
+try:
+    llm = GoogleGenerativeAI(
+        model="gemini-2.0-flash",
+        temperature=0.2,
+        google_api_key=os.getenv("GOOGLE_API_KEY")
+    )
+except Exception as e:
+    raise Exception("GOOGLE_API_KEY not found. Please provide your GOOGLE_API_KEY in .env file.")
 
 # Prompting
 prompt_template = PromptTemplate(
