@@ -1,16 +1,19 @@
 # SpecialistRecommender
  This is a simple FastAPI-based API that uses Google's Gemini language model (via LangChain) to recommend the most relevant specialist department for a patient based on gender, age, and symptoms.
+<br>
 
 ## 🚀 Features
 - Uses Gemini 2.0 Flash model via LangChain
 - Accepts POST requests with patient data
 - Returns only the recommended hospital department
+<br>
 
 ## 🔑 Prerequisite
 You must have a Google API key, then add your Google API key to the `.env` file. Example:
 ```text
 GOOGLE_API_KEY=your_google_api_key_here
 ```
+<br>
 
 ## 📁 Project Structure
 ```text
@@ -21,6 +24,7 @@ SpecialistRecommender/
 ├── .env                     # Contains your GOOGLE_API_KEY (empty)
 └── README.md                # This tutorial
 ```
+<br>
 
 ---
 
