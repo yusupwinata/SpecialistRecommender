@@ -67,9 +67,6 @@ pip install -r requirements.txt
 <br>
 
 ## 🏃‍♂️ B. Run the API and Make Request Instructions
-Open a new terminal in SpecialistRecommender folder and follow these steps:
-<br>
-
 ### 1. Running the API
 ```bash
 fastapi dev main.py
@@ -80,7 +77,7 @@ http://127.0.0.1:8000
 <br>
 
 ### 2. Making Requests
-You can test the /recommend endpoint in two different ways:
+First, **Open a new terminal** in SpecialistRecommender folder. Next, **test the /recommend endpoint**. You can test the endpoint in two different ways:
 <br>
 <br>
 
