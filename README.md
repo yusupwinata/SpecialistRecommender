@@ -37,7 +37,7 @@ conda create -n specialist_env python=3.11 -y
 conda activate specialist_env
 ```
 
-# 3. Install dependencies
+### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
