@@ -10,6 +10,6 @@ patient_info = {
 
 try:
     response = requests.post(url=url, json=patient_info)
-    print(response.json())
+    print(response.json(), end='')
 except Exception as e:
     print(f"Error: str{e}")
