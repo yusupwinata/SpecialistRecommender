@@ -27,14 +27,18 @@ SpecialistRecommender/
 <br>
 
 ---
+<br>
 
 ## 📦 A. Setup Instructions
 Open a terminal and follow these steps:
+<br>
+
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/yusupwinata/SpecialistRecommender.git
 cd SpecialistRecommender
 ```
+<br>
 
 ### 2. Create and activate virtual environment
 In this tutorial I use **conda** to create a virtual environment named `specialist_env`.
@@ -42,11 +46,13 @@ In this tutorial I use **conda** to create a virtual environment named `speciali
 conda create -n specialist_env python=3.11 -y
 conda activate specialist_env
 ```
+<br>
 
 ### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
+<br>
 
 ---
 
